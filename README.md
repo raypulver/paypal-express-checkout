@@ -26,6 +26,7 @@ To run the test, you must generate a token on a retailer's website, then set the
 - `PAYPAL_USER`
 - `PAYPAL_PASS`
 - `PAYPAL_TOKEN`
+
 Then run `mocha` in the project directory.
 
 ## License
