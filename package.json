@@ -1,0 +1,35 @@
+{
+  "name": "paypal-express-checkout",
+  "version": "1.0.0",
+  "description": "A module that accepts a PayPal token and PayPal account and authorizes the transaction associated with that token under the account.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raypulver/paypal-express-checkout.git"
+  },
+  "keywords": [
+    "paypal",
+    "express",
+    "checkout"
+  ],
+  "author": "Raymond Pulver IV",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/raypulver/paypal-express-checkout/issues"
+  },
+  "homepage": "https://github.com/raypulver/paypal-express-checkout#readme",
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "es6-promise": "^3.0.2",
+    "node-uuid": "^1.4.3",
+    "request": "^2.61.0"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.3.2",
+    "request-debug": "^0.2.0"
+  }
+}
